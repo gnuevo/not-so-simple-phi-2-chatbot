@@ -1,0 +1,7 @@
+torch
+transformers
+einops
+accelerate
+matplotlib
+scikit-learn
+langchain
