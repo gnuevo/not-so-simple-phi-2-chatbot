@@ -21,6 +21,20 @@ If you want to quickly run the code, you have three options:
 
 In addition to the functionality [above](#quickstart), we also implemented a simple [LoRA](https://huggingface.co/docs/peft/conceptual_guides/lora) fine tuning notebook (`finetune.ipynb`). It fine tunes the model with a toy conversation dataset.
 
+## Docker
+
+You can also run the `gradio` app using Docker.
+
+Build the image doing
+```bash
+sudo docker build -t gradio-app-image .
+```
+
+And then run it with
+```bash
+sudo docker run -p 7860:7860 -t gradio-app-image
+```
+
 ## Approach
 
 Broadly speaking, the solution to this problem was to:

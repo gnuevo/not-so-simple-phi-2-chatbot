@@ -136,4 +136,4 @@ def predict(message, history):
         yield partial_message
         
 
-gr.ChatInterface(predict).queue().launch()
+gr.ChatInterface(predict).queue().launch(server_name="0.0.0.0")

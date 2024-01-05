@@ -2,6 +2,7 @@ torch
 transformers
 einops
 accelerate
+gradio
 matplotlib
 scikit-learn
 langchain
