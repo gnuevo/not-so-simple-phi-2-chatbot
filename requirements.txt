@@ -5,3 +5,4 @@ accelerate
 matplotlib
 scikit-learn
 langchain
+bitsandbytes
