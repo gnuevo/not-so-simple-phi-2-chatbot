@@ -17,6 +17,10 @@ If you want to quickly run the code, you have three options:
 
 > ⚠️ **Warning:** Inference is much fastar on GPU than on CPU.
 
+## Fine tune
+
+In addition to the functionality [above](#quickstart), we also implemented a simple [LoRA](https://huggingface.co/docs/peft/conceptual_guides/lora) fine tuning notebook (`finetune.ipynb`). It fine tunes the model with a toy conversation dataset.
+
 ## Approach
 
 Broadly speaking, the solution to this problem was to:
